@@ -1,0 +1,7 @@
+{
+  "status": {
+    "statusCode": "1004",
+    "statusDescription": "Customer not found."
+  },
+  "account":{"accountId":null,"customerId":1,"accountNumber":null,"availableBalance":null,"transactions":[]}
+}

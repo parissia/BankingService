@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Information</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+    <h1>Welcome to the future bank</h1>
+    <img th:src="@{/images/TacoCloud.png}">
+
+<div class="information-group">
+    <h3>Customer Information</h3>
+
+    <label> Name: </label><span th:text="${customer.name}">Name</span>
+    <br>
+    <label> Surname: </label> <span th:text="${customer.surname}">SurName</span>
+    <br>
+    <label>Initial credit: </label><span th:text="${customer.initialCredit}">InitialCredit</span>
+    <br>
+    <label>balance: </label><span th:text="${balance}">Balance</span>
+
+    <div class="grid">
+        <div class="account-group" id="accounts">
+            <h3> All accounts:</h3>
+            <div th:each="account : ${customer.accounts}">
+                <span th:text="${account.accountNumber}">Account</span><br/>
+            </div>
+        </div>
+
+</div>
+
+</body>
+</html>

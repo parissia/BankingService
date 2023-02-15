@@ -1,0 +1,13 @@
+{
+  "status": {
+    "statusCode": "1000",
+    "statusDescription": "Account successfully created."
+  },
+  "account": {
+    "accountId": 1,
+    "customerId": 1,
+    "accountNumber": null,
+    "availableBalance": null,
+    "transactions": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": {
+    "statusCode": "1005",
+    "statusDescription": "Unable to create transaction."
+  },
+  "account": {
+    "accountId": 2,
+    "customerId": 1,
+    "accountNumber": null,
+    "availableBalance": null,
+    "transactions": []
+  }
+}
