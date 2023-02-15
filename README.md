@@ -40,7 +40,7 @@ Use a tool like Postman to send requests to the two endpoints. The URLs for the 
  
  <img width="454" alt="Output" src="https://user-images.githubusercontent.com/8723233/219047282-986d73da-9154-4c9b-bb66-bd5ce0be871a.png">
  
- * If you want to display customer information, simply access the "http://localhost:8080/api/v1/bank/customer/show?id=1" endpoint. The output will be presented in a basic HTML format and will include details about the customer as well as any associated accounts.
+ * If you want to display customer information, simply access the "http://localhost:8080/api/v1/bank/customer/show?id=1" endpoint through a browser. The output will be presented in a basic HTML format and will include details about the customer as well as any associated accounts.
 
  <img width="450" height="400" alt="Show Customer" src="https://user-images.githubusercontent.com/8723233/219048347-b3a1ec21-4203-4444-b1e9-54d2f3f86020.png">
 
