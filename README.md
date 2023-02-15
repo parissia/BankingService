@@ -10,7 +10,7 @@ The purpose of this assessment is to create an API that enables the opening of a
 ## Running the project
 Clone the repository containing the Spring service code
 
-  <code>git clone https://github.com/BankingService.git </code>
+  <code>git clone https://github.com/parissia/BankingService.git </code>
 
 Navigate to the directory containing the *BankingService* code.
 
