@@ -44,3 +44,5 @@ Use a tool like Postman to send requests to the two endpoints. The URLs for the 
 
  <img width="450" height="400" alt="Show Customer" src="https://user-images.githubusercontent.com/8723233/219048347-b3a1ec21-4203-4444-b1e9-54d2f3f86020.png">
 
+## Test
+I have performed tests on all of the defined endpoints to ensure that they function correctly. To review the tests, please refer to the "test" folder.
